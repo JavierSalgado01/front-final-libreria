@@ -1,0 +1,94 @@
+{
+"datos" : [
+    {
+      "nombre": "Crimen y castigo",
+      "autor": "Fiodor Dostoievski",
+      "sipsnosis": "Aqui va la descripcion Aqui va la descripcion Aqui va la descripcion Aqui va la descripcion",
+      "img": "/assets/crimen-y-castigo.jpg"
+    },
+    {
+      "img": "/assets/prin.jpg",
+      "nombre":"El principito",
+      "autor":"Antoine de Saint-Exupéry",
+      "precio":"16000 CLP",
+      "sipsnosis":"Fábula mítica y relato filosófico que interroga acerca de la relación del ser humano con su prójimo y con el mundo, El Principito concentra, con maravillosa simplicidad, la constante reflexión sobre la amistad, el amor, la responsabilidad y el sentido de la vida."
+    },
+    {
+      "img": "/assets/pilares.jpg",
+      "nombre":"Los siete pilares de la sabiduria",
+      "autor":" Thomas Edward Lawrence",
+      "precio":"30000 CLP",
+      "sipsnosis":"Los siete pilares de la sabiduría es el último libro de Thomas Edward Lawrence, y en él relata su experiencia militar y humana durante la guerra de británicos, franceses y árabes contra turcos y alemanes, durante la Primera Guerra Mundial. "
+    },
+    {
+      "img": "/assets/centeno.jpg",
+      "nombre":"El guardian entre el centeno",
+      "autor":"J.D Slinger",
+      "precio":"41000 CLP",
+      "sipsnosis":"Trata sobre un adolescente cuya historia abarca en el tiempo desde el momento en que se entera que ha sido expulsado de su colegio hasta tres días después, días en los cuales la narración se centra en su percepción hacia lo ajeno, hacía lo externo, la vida y las personas."
+    },
+    {
+      "img": "/assets/viento.jpg",
+      "nombre":"El nombre del viento",
+      "autor": "Patrick Rothfuss",
+      "precio":"37000 CLP",
+      "sipsnosis":"El nombre del viento. Crónica del asesino de reyes: primer día es una novela de fantasía épica, perteneciente a la serie Crónica del Asesino de Reyes."
+    },
+    {
+      "img": "/assets/elcid.png",
+      "nombre":"Cantar de Mio Cid",
+      "autor":"Anónimo",
+      "precio":"21000 CLP",
+      "sipsnosis":"Poema épico anónimo del siglo XII que refiere las hazañas de madurez del Cid, en torno al episodio central de la conquista de Valencia, tras ser desterrado de Castilla por el rey Alfonso."
+    },
+    {
+      "img": "/assets/kijo.jpg",
+      "nombre":"Don Quijote de la Mancha",
+      "autor":"Miguel de Cervantes",
+      "precio":"31000 CLP",
+      "sipsnosis":"El ingenioso hidalgo don Quijote de la Mancha narra las aventuras de Alonso Quijano, un hidalgo pobre que de tanto leer novelas de caballería acaba enloqueciendo y creyendo ser un caballero andante, nombrándose a sí mismo como don Quijote de la Mancha"
+    },
+    {
+      "img": "/assets/noche.jpg",
+      "nombre":"Las mil y una noches",
+      "autor":"Anónimo",
+      "precio":"45000 CLP",
+      "sipsnosis":"El sultán descubre la infidelidad de su esposa y ordena matarla. Enajenado por el odio hacia las mujeres, decide, entonces, desposar a las jóvenes vírgenes de la comarca y asesinarlas al día siguiente."
+    },
+    {
+      "img": "/assets/arte.jpg",
+      "nombre":"El arte de la guerra",
+      "autor":"Sun Tzu",
+      "precio":"19000 CLP",
+      "sipsnosis":"Libro sobre tácticas y estrategias militares, escrito por Sun Tzu, un famoso estratega militar chino. Se trata de un antiguo tratado militar chino que data del final del periodo de las Primaveras y Otoños."
+    },
+    {
+      "img": "/assets/odisea.jpg",
+      "nombre":"La odisea",
+      "autor":"Homero",
+      "precio":"25000 CLP",
+      "sipsnosis":"La Odisea es un poema épico griego compuesto por 24 cantos, atribuido al poeta griego Homero. Se cree que fue compuesta en el siglo VIII a. C. en los asentamientos que tenía Grecia en la costa oeste del Asia Menor. Según otros autores, la Odisea se completa en el siglo VII a"
+    },
+    {
+      "img": "/assets/iliada.jpg",
+      "nombre":"Iliada",
+      "autor":"Homero",
+      "precio":"25000 CLP",
+      "sipsnosis":"La Ilíada es una epopeya griega, atribuida tradicionalmente a Homero. Compuesta en hexámetros dactílicos, consta de 15 693 versos y su trama radica en la cólera de Aquiles.​ Narra los acontecimientos ocurridos durante 51 días en el décimo y último año de la guerra de Troya."
+    },
+    {
+      "img": "/assets/ben.jpg",
+      "nombre":"Ben-Hur",
+      "autor":"Lewis Wallace",
+      "precio":"32000 CLP",
+      "sipsnosis":"Novela del escritor estadounidense Lewis Wallace, publicada por primera vez 12 de noviembre de 1880, que relata la historia de un príncipe judío ficticio, Judá Ben-Hur y sus peripecias en la época de Jesucristo, en un mundo en el que se gestaba una nueva fe."
+    },
+    {
+      "img": "/assets/mujercitas.jpg",
+      "nombre":"Mujercitas",
+      "autor":"Louisa May Alcott",
+      "precio":"39000 CLP",
+      "sipsnosis":"Mujercitas es una novela de la escritora estadounidense Louisa May Alcott publicada el 30 de septiembre de 1868, que trata la vida de cuatro niñas que, tras pasar la adolescencia con la Guerra Civil en los Estados Unidos como fondo, entre 1861 y 1865, se convierten en mujeres."
+    }
+  ]
+}
