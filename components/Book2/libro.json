@@ -1,0 +1,32 @@
+{
+    "datos2" : [
+        {
+          "nombre": " Historia de dos ciudades",
+          "autor": "Charles Dickens",
+          "sipsnosis": "En esta novela histórica se narra la vida en el siglo XVIII, en la época de la Revolución francesa. Al mismo tiempo la historia se desarrolla en dos países: Inglaterra y Francia, y en las ciudades de Londres y París, respectivamente en la época de los albores de la Revolución francesa. La primera ciudad simbolizaría de algún modo la paz y la tranquilidad, la vida sencilla y ordenada; mientras la segunda representaría la agitación, el desafío y el caos, el conflicto entre dos mundos en una época en la que se anuncia drásticos cambios sociales.",
+          "img": "/assets/dosciudades.jpg",
+          "precio":"69990"
+        },
+        {
+          "nombre": "El señor de los anillos",
+          "autor": "J.R.R Tolkien",
+          "sipsnosis": "La novela narra el viaje del protagonista principal, Frodo Bolsón, hobbit de la Comarca, para destruir el Anillo Único y la consiguiente guerra que provocará el enemigo para recuperarlo, ya que es la principal fuente de poder de su creador, el señor oscuro Sauron.",
+          "img": "/assets/senior.jpg",
+          "precio":"89990 CLP"
+        },
+        {
+          "nombre": "Y no quedó ninguno",
+          "autor": "Agatha Christie",
+          "sipsnosis": "​ La novela cuenta la historia de diez personas implicadas en la muerte de otras personas en el pasado y que lograron escapar de la justicia, que son invitadas a pasar un fin de semana en una isla. Allí comienzan a ser asesinadas una a una de forma similar a la que se menciona en cada estrofa de la canción.",
+          "img": "/assets/negritos.jpg",
+          "precio":"79990 CLP"
+        },
+        {
+          "nombre": "El alquimista",
+          "autor": "Paulo Coelho",
+          "sipsnosis": "elata las aventuras de Santiago, un joven pastor andaluz que un día emprende un viaje por las arenas del desierto en busca de un tesoro. Lo que empieza como la búsqueda de bienes mundanos se convertirá en el descubrimiento del tesoro interior",
+          "img": "/assets/alqu.jpg",
+          "precio":"990 USD"
+        }
+
+]}

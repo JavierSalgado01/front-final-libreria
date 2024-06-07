@@ -8,11 +8,11 @@ import Button from '@/components/Button';
           <Image className="w-full h-80" src={libro.img} alt={libro.nombre} width={150} height={150} />
         )}
         <div className="px-4 py-2 pb-12">
-          <div className="font-bold text-lg mb-2">{libro.nombre}<p className='font-sans text-sm'>{libro.autor}</p></div>
-          <p className="text-gray-700 text-sm">{libro.sipsnosis}</p>
-          <div className='flex items-end py-4'>
+          <div className="font-bold text-lg mb-4">{libro.nombre}<p className='font-sans text-sm'>{libro.autor}</p></div>
+          <p className="text-gray-700 text-sm pb-3">{libro.sipsnosis}</p>
+          <div className='flex items-center py--5'>
             <Button texto='Al carrito!' />
-            <div className='flex items-right'>{libro.precio}</div>
+            <div className='font-semibold text-slate-700 px-10'>{libro.precio}</div>
           </div>
         </div>
       </div>

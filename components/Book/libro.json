@@ -3,8 +3,9 @@
     {
       "nombre": "Crimen y castigo",
       "autor": "Fiodor Dostoievski",
-      "sipsnosis": "Aqui va la descripcion Aqui va la descripcion Aqui va la descripcion Aqui va la descripcion",
-      "img": "/assets/crimen-y-castigo.jpg"
+      "sipsnosis": "La historia de un doble crimen cometido por un joven y su subsecuente lucha interna con sus emociones y sus delirios. «Los personajes no se parecen a nosotros, y no obstante nadie nos habla más adentro que ellos, nadie se parece más a nuestra última verdad»",
+      "img": "/assets/crimen-y-castigo.jpg",
+      "precio":"39990"
     },
     {
       "img": "/assets/prin.jpg",
@@ -89,6 +90,27 @@
       "autor":"Louisa May Alcott",
       "precio":"39000 CLP",
       "sipsnosis":"Mujercitas es una novela de la escritora estadounidense Louisa May Alcott publicada el 30 de septiembre de 1868, que trata la vida de cuatro niñas que, tras pasar la adolescencia con la Guerra Civil en los Estados Unidos como fondo, entre 1861 y 1865, se convierten en mujeres."
-    }
+    },
+    {
+      "img": "/assets/mundodicco.jpg",
+      "nombre":"Mundodisco: Mort",
+      "autor":"Terry Pratchett",
+      "precio":"35000 CLP",
+      "sipsnosis":"Mortimer es un joven soñador y despistado a quien le toca en suerte una inesperada tarea: convertirse en aprendiz de la Muerte y aplicarse en liberar almas de su envoltura carnal."
+  },
+  {
+      "img": "/assets/cien.jpg",
+      "nombre":"Cien años de soledad",
+      "autor":"Gabriel García Márquez",
+      "precio":"48000",
+      "sipsnosis":"Entre la boda de José Arcadio Buendía con Ursula Iguarán hasta la maldición de Aureliano Babilonia transcurre todo un siglo. Cien años de soledad para una estirpe única, fantástica, capaz de fundar una ciudad tan especial como Macondo."
+  },
+  {
+      "img": "/assets/guar.jpg",
+      "nombre":"!Guardias¡ !Guardias¡",
+      "autor":"Terry Pratchett",
+      "precio":"29000",
+      "sipsnosis":" La historia sigue a una hermandad secreta, la Logia Suprema de los Hermanos Esclarecidos de la Noche Ébano, para derrocar al Patricio de Ankh-Morpork e instalar un rey títere, bajo el control del Gran Maestro Supremo."
+  }
   ]
 }

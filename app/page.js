@@ -2,20 +2,23 @@ import Link from "next/link";
 import Image from "next/image";
 import Card from '@/components/Cards';
 import Book from '@/components/Book/libro.json';
+import Book2 from '@/components/Book2/libro.json';
 
 export default function Home() {
   const libros = Book.datos;
+  const libro = Book2.datos2;
 
   return (
-    <main className="">
-      <header className='flex justify-between p-3 text-red-500'>
-        <div className='text-yellow-600 font-sans text-4xl'>Libreria "el ígnaro"</div>
+    <main className="bg-cover bg-center bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/assets/background/body.jpg')" }}>
+      <header className='flex justify-between p-3 text-yellow-500'>
+        <div className='font-bold text-yellow-500 font-sans text-4xl'>Libreria "el ígnaro"<p className="text-2xl">Ahora renovados</p></div>
         <nav className="flex items-center gap-4">
           <Link href=''>Home</Link>
+          <Link href=''>Categorias</Link>
           <Link href=''>Carrito</Link>
           <Link href=''>Nosotros</Link>
           <Link href=''>Contacto</Link>
-          <Link href='' className='bg-red-800 text-white rounded-full px-4 py-2'>Login</Link>
+          <Link href='' className='bg-yellow-800 text-white rounded-full px-4 py-2'>Login</Link>
         </nav>
       </header>
       <section className="flex flex-wrap">
@@ -25,9 +28,30 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <footer className="p-4 bg-gray-200 text-center">
-        <h3>Métodos de pagos aceptados</h3>
-      </footer>
+      <div>
+      <div className="bg-cover bg-center bg-no-repeat min-h-screen" style={{ backgroundImage: "url('/assets/background/vendidos.jpg')" }}>
+        <div className="text-white text-center font-bold"><h3>Los mas vendidos!</h3></div>
+        <section className="flex flex-wrap text-justify">
+        <div className="grid grid-cols-4 gap-4">
+          {libro.map((libro, index) => (
+            <Card key={index} libro={libro} />
+          ))}
+        </div>
+      </section>
+      </div>
+        <footer className="p-4 bg-white text-center">
+          <div><h3>  💲 💲Métodos de pagos aceptados 💲 💲</h3></div>
+            <div className="flex justify-center gap-4">
+                <Image src="/assets/pago/visa.svg" alt="visa" width={110} height={110} />
+                <Image src="/assets/pago/mastercard-4.svg" alt="master" width={110} height={110} />
+                <Image src="/assets/pago/paypal.svg" alt="PayPal" width={110} height={110} />
+                <Image src="/assets/pago/banco.svg" alt="banco" width={110} height={110} />
+                <Image src="/assets/pago/bit.png" alt="bit" width={110} height={110} />
+                <Image src="/assets/pago/trank.svg" alt="trank" width={110} height={110} />
+                <Image src="/assets/pago/web.svg" alt="web" width={110} height={110} />
+            </div>
+        </footer>
+      </div>
     </main>
   );
 }
