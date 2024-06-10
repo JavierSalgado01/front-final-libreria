@@ -9,9 +9,9 @@ export default function Home() {
   const libro = Book2.datos2;
 
   return (
-    <main className="bg-cover bg-auto bg-center bg-repeat min-h-screen" style={{ backgroundImage: "url('/assets/background/body.jpg')" }}>
+    <main className="bg-auto bg-center bg-repeat min-h-screen" style={{ backgroundImage: "url('/assets/background/body.jpg')" }}>
       <header className='flex justify-between p-3 text-yellow-500'>
-        <div className='font-mono text-yellow-500 font-sans text-4xl'>Libreria "el ígnaro"<p className="font-bold text-2xl text-slate-200">Ahora renovados</p></div>
+        <div className='font-mono text-yellow-500 text-4xl'>Libreria "el ígnaro"<p className="font-bold text-2xl text-slate-200">Ahora renovados</p></div>
         <nav className="flex items-center gap-4">
           <Link href=''>Home</Link>
           <Link href=''>Categorias</Link>
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </section>
       <div>
-      <div className="bg-cover bg-auto bg-center bg-repeat min-h-screen" style={{ backgroundImage: "url('/assets/background/vendidos.jpg')" }}>
+      <div className="bg-auto bg-center bg-repeat min-h-screen" style={{ backgroundImage: "url('/assets/background/vendidos.jpg')" }}>
         <div className="text-white text-center font-bold text-xl"><h1>Los mas vendidos!</h1></div>
         <section className="flex-wrap text-justify">
         <div className="grid grid-cols-4 gap-4">
@@ -40,7 +40,7 @@ export default function Home() {
       </section>
       </div>
         <footer className="p-4 bg-white text-center">
-          <div><h3>  💲 💲Métodos de pagos aceptados 💲 💲</h3></div>
+          <div><h3>  💲 💲 Métodos de pagos aceptados 💲 💲</h3></div>
             <div className="flex justify-center gap-4">
                 <Image src="/assets/pago/visa.svg" alt="visa" width={110} height={110} />
                 <Image src="/assets/pago/mastercard-4.svg" alt="master" width={110} height={110} />
