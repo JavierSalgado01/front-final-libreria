@@ -46,7 +46,7 @@ export default function Home() {
                 <Image src="/assets/pago/mastercard-4.svg" alt="master" width={110} height={110} />
                 <Image src="/assets/pago/paypal.svg" alt="PayPal" width={110} height={110} />
                 <Image src="/assets/pago/banco.svg" alt="banco" width={110} height={110} />
-                <Image src="/assets/pago/bit.png" alt="bit" width={110} height={110} />
+                <Image src="/assets/pago/bit.svg" alt="bit" width={80} height={80} />
                 <Image src="/assets/pago/trank.svg" alt="trank" width={110} height={110} />
                 <Image src="/assets/pago/web.svg" alt="web" width={110} height={110} />
             </div>
