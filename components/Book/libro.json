@@ -102,14 +102,14 @@
       "img": "/assets/cien.jpg",
       "nombre":"Cien años de soledad",
       "autor":"Gabriel García Márquez",
-      "precio":"48000",
+      "precio":"48000 CLP",
       "sipsnosis":"Entre la boda de José Arcadio Buendía con Ursula Iguarán hasta la maldición de Aureliano Babilonia transcurre todo un siglo. Cien años de soledad para una estirpe única, fantástica, capaz de fundar una ciudad tan especial como Macondo."
   },
   {
       "img": "/assets/guar.jpg",
       "nombre":"!Guardias¡ !Guardias¡",
       "autor":"Terry Pratchett",
-      "precio":"29000",
+      "precio":"29000 CLP",
       "sipsnosis":" La historia sigue a una hermandad secreta, la Logia Suprema de los Hermanos Esclarecidos de la Noche Ébano, para derrocar al Patricio de Ankh-Morpork e instalar un rey títere, bajo el control del Gran Maestro Supremo."
   }
   ]
