@@ -18,7 +18,8 @@ export default function Home() {
           <Link href=''>Carrito</Link>
           <Link href=''>Nosotros</Link>
           <Link href=''>Contacto</Link>
-          <Link href='' className='flex bg-yellow-800 text-white rounded-full px-4 py-2'><Image className="flex w-4"  src="/assets/background/lgo.svg" alt="lgo" width={14} height={14}/>Mi cuenta</Link>
+          <a href='/login' className='flex bg-yellow-800 text-white rounded-full px-4 py-2'><Image className="flex w-4"  src="/assets/background/lgo.svg" alt="lgo" width={14} height={14}/>Mi cuenta</a>
+          <a href='/registro' className='flex bg-yellow-800 text-white rounded-full px-4 py-2'><Image className="flex w-4"  src="/assets/background/lgo.svg" alt="lgo" width={14} height={14}/>Registrarse</a>
         </nav>
       </header>
       <section className="flex flex-wrap">
