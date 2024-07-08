@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react"
+import Link from "next/link";
 
 const page = () => {
   const [email, setEmail] = useState('');
@@ -18,9 +19,13 @@ const page = () => {
       <div className="bg-white p-6 rounded shadow-md max-w-md w-full">
         <h1 className="text-2xl text-center mb-4">Registro</h1>
         <form className="block mx-auto max-w-xs" onSubmit={handleFormSubmit}>
-          <input type="email" placeholder="Escribe tu Email" defaultValue={email} onChange={ e => setEmail(e.target.value)}/>
-          <input type="password" placeholder="Escribe Clave" defaultValue={password} onChange={ ev => setPassword(ev.target.value)}/>
-          <button className= "grid bg-yellow-800 text-white rounded-full px-4 py-1" type="submit"> Registrar </button>
+          <input className="mb-2" type="email" placeholder="Escribe tu Email" defaultValue={email} onChange={ e => setEmail(e.target.value)}/>
+          <input className="mb-4" type="password" placeholder="Escribe Clave" defaultValue={password} onChange={ ev => setPassword(ev.target.value)}/>
+          <button className= "grid bg-yellow-800 text-white rounded-full px-4 py-1 mb-4" type="submit"> Registrar </button>
+            <div className="flex flex-wrap justify-between">
+            <a href='/listar' className= "grid bg-yellow-800 text-white px-4 py-1 mr-2"> listar usuarios </a>
+            <a href='' className= "grid bg-yellow-800 text-white px-4 py-1"> borrar usuarios </a>
+            </div>
         </form>
       </div>
     </section>
